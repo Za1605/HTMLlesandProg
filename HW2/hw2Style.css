@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+ES+Deco+Guides&family=Playwrite+VN+Guides&display=swap');
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.josefin-sans-uniquifier {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+               }
+
+.playwrite-es-deco-guides-regular {
+    font-family: "Playwrite ES Deco Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.playfair-display-uniquifier{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+                   }
+
+.playwrite-vn-guides-regular {
+    font-family: "Playwrite VN Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bigDiv{
+     height: 600px;
+     background-color: lightgray;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .blue{
+     background-color: lightblue;
+     height: 100px;
+     width: 100px;
+     border: 3px solid darkorange;
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ .green{
+     background-color: lightgreen;
+     height: 100px;
+     width: 100px;
+     border: 3px solid black;
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .yellow{
+     background-color: yellow;
+     height: 100px;
+     width: 100px;
+     border: 3px solid black;
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .red{
+     background-color: red;
+     height: 100px;
+     width: 100px;
+     border: 3px solid darkblue;
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ .dark{
+     background-color: chocolate;
+     height: 100px;
+     width: 100px;
+     border: 3px solid darkgray;
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+/*для того щоб розмістити 2 ш 4 кв в низу*/
+ .align-self{
+     align-self: flex-end;
+ }
+
