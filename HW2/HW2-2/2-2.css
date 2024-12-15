@@ -1,0 +1,23 @@
+.bigKon{
+    height: 500px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.div1{
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border: 3px solid black;
+}
+
+.div1:hover{
+    color: cornflowerblue;
+    transform: ;
+    opacity: 1;
+}

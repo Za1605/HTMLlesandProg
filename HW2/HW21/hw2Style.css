@@ -90,7 +90,7 @@
      align-items: center;
 
  }
-/*для того щоб розмістити 2 ш 4 кв в низу*/
+/*для того щоб розмістити 2 and 4 кв в низу*/
  .align-self{
      align-self: flex-end;
  }
