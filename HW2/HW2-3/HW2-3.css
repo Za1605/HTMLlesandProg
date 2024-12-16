@@ -1,0 +1,25 @@
+.bigDiv{
+    background-color: aqua;
+    height: 900px;
+
+}
+
+.midlVidg{
+    background-color: blue;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+
+.mainVidg{
+    height: 25%;
+
+}
+
+.footer{
+    height: 45%;
+    background-color: blueviolet;
+}
+
