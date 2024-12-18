@@ -1,0 +1,31 @@
+main{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+section{
+    height: 50vh;
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border: 3px solid black;
+    margin: 5vh;
+
+}
+
+article{
+    margin: 5vh;
+    height: 50vh;
+    background-color: chartreuse;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border: 3px solid black;
+}
+
+body{
+    margin: 0;
+}
+
