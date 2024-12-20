@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 20vh;
+    background: brown;
+}
+
+main{
+    display: flex;
+}
+
+aside{
+    height: 60vh;
+    width: 20vw;
+    background: antiquewhite;
+
+}
+section{
+    height: 60vh;
+    background: blueviolet;
+    width: 60vw;
+}
+
+article{
+    height: 60vh;
+    width: 20vw;
+    background: coral;
+}
+
+footer{
+    height: 20vh;
+    background: burlywood;
+}
+.midBlue{
+    height: 50%;
+    background: burlywood;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.midBlue1{
+    height: 50%;
+    background: chartreuse;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
