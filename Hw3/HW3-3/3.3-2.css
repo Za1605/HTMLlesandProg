@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 20vh;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    display: flex;
+}
+/*--------------------------middle-----------------------------------*/
+
+
+nav{
+    height: 60vh;
+    width: 30vw;
+    background: brown;
+}
+
+.newsMid{
+    height: 33%;
+    background: darkslateblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+section{
+    height: 60vh;
+    width: 35vw;
+    background: burlywood;
+}
+
+aside{
+    height: 60vh;
+    width: 35vw;
+    background: darkorange;
+}
+
+/*------------------------------------footer-----------------------*/
+footer{
+    height: 20vh;
+    background: cadetblue;
+}
