@@ -1,0 +1,44 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+
+h1{
+    color: black;
+}
+section{
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------------------------strilky up-down----------------------------*/
+.upDown{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow-down{
+    margin-bottom: 0;
+}
+
+.arrow-up{
+    margin-top: 0;
+}
+#yellow{
+    background-color: yellow;
+}
+
+#pink{
+    background-color: aliceblue;
+}
+#blue{
+    background-color: bisque;
+}
