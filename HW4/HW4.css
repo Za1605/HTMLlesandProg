@@ -1,15 +1,17 @@
+
 body{
-    height: 70vh;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
 
+
 }
 
 .img{
-    width: 10vw;
-    height: 10vh;
+    width: 80px;
+    height: 70px;
 
 
 }
@@ -26,12 +28,29 @@ body{
 
 .butBlue{
     height: 25px;
-    width: 220px;
+    width: 200px;
     background: lightskyblue;
     border-radius: 15px;
     border: solid ;
+    margin: 10px;
+
 }
 
+h3{
+    color: darkblue;
+}
+
+.fecImg{
+    height: 22px;
+    width: 22px;
+    margin: -3px;
+    padding: -5px;
+
+}
+
+.lowWord{
+    color: darkblue;
+}
 /*.button1{
     display: flex;
     justify-content: space-between;
@@ -81,9 +100,15 @@ input[type="password"]::placeholder{
 
 /*--------------------------footer----------------------------*/
 footer{
-    height: 20vh;
+    height: 10vh;
     width: 40vw;
     border: 2px solid black;
     margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+footer a{
+    color: blue;
 }
