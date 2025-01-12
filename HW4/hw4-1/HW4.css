@@ -5,7 +5,7 @@ body{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-
+    background: grey;
 
 }
 
@@ -13,27 +13,75 @@ body{
     width: 80px;
     height: 70px;
 
-
 }
-.firsDiv{
+.firstDiv{
     height: 50vh;
     width: 40vw;
-    border: 4px solid grey;
     margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
-.butBlue{
-    height: 25px;
-    width: 200px;
-    background: lightskyblue;
-    border-radius: 15px;
-    border: solid ;
-    margin: 10px;
 
+.firstDiv i{
+    position: absolute;
+    inset:-120px;  /* encrease */
+
+    border: 2px solid #fff;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.firstDiv i:nth-child(1){
+    border-radius: 68% 72% 93% 47% /51% 54% 66% 69%;
+    animation: animate 6s linear infinite;
+}
+
+.firstDiv i:nth-child(2){
+    border-radius: 67% 64% 76% 69%/48% 72% 73% 47%;
+    animation: animate 4s linear infinite;
+}
+
+.firstDiv i:nth-child(3){
+    border-radius: 67% 64% 86% 69%/48% 72% 73% 47%;
+    animation: animate2 10s linear infinite;
+
+}
+
+.firstDiv:hover i{
+    border:6px solid var(--clr);
+    filter: drop-shadow(0 0 40px var(--clr));
+}
+
+ @keyframes animate {
+0% {
+transform: rotate(0deg);
+}
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+ @keyframes animate2 {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+.butBlue{
+    height: 30px;
+    width: 220px;
+    background: #439edf;
+    border-radius: 15px;
+    box-shadow: 10px 7px 4px 0px rgba(0, 0, 0, 0.7);
+    margin: 10px;
 }
 
 h3{
@@ -72,7 +120,7 @@ input[type="text"]{
     text-overflow: ellipsis;
     height: 25px;
     width: 220px;
-    border: 1px black solid;
+     border:  1px black solid;
     border-radius: 5px;
     margin: 10px;
     background: lightgrey;
@@ -102,7 +150,7 @@ input[type="password"]::placeholder{
 footer{
     height: 10vh;
     width: 40vw;
-    border: 2px solid black;
+
     margin: 20px;
     display: flex;
     justify-content: center;
