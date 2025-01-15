@@ -1,0 +1,28 @@
+
+.firstDiv ul>li:nth-child(even){
+    color: #6e9900;
+}
+
+.secondDiv ul>li:nth-child(odd){
+    font-size: 22px;
+}
+
+.thirdDiv ul>li:nth-child(3n+4)::after{
+    content: "!!!!";
+    color: #a744c5;
+}
+
+.fourDiv ul>li:last-child{
+    color: #ff0057;
+}
+
+.fiveDiv ul>li:first-letter{
+    font-size: 30px;
+    color: red;
+}
+
+
+
+
+
+
