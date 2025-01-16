@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, #d6d1d1, #7595e6, #9fadcf);
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perDiv{
+
+    height:390px;
+    width: 240px;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.perHed{
+    height: 5vh;
+    width: 10vw;
+    background: #737070;
+    position: absolute;
+    right: -10px;
+    top: -20px;
+
+}
+
+.drugDiv{
+    height: 390px;
+    width: 240px;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+}
+
+.drugHed{
+    height: 5vh;
+    width: 10vw;
+    background: #4691b6;
+    position: absolute;
+    right: -10px;
+    top: -20px;
+}
+
+.treDiv{
+    height: 390px;
+    width:240px;
+    background: white;
+    border-radius: 15px;
+}
