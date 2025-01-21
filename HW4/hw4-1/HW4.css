@@ -1,11 +1,13 @@
 
 body{
     height: 100vh;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    background: grey;
+    background: black;
+    margin: 0;
 
 }
 
@@ -17,18 +19,19 @@ body{
 .firstDiv{
     height: 50vh;
     width: 40vw;
-    margin: 20px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
+    overflow: hidden;
 }
 
 
 .firstDiv i{
     position: absolute;
-    inset:-120px;  /* encrease */
+    inset: -70px;  /* encrease */
 
     border: 2px solid #fff;
     transition: 0.5s;
@@ -36,12 +39,12 @@ body{
 }
 
 .firstDiv i:nth-child(1){
-    border-radius: 68% 72% 93% 47% /51% 54% 66% 69%;
+    border-radius: 58% 62% 83% 47% /51% 54% 56% 59%;
     animation: animate 6s linear infinite;
 }
 
 .firstDiv i:nth-child(2){
-    border-radius: 67% 64% 76% 69%/48% 72% 73% 47%;
+    border-radius: 57% 54% 66% 59%/48% 62% 63% 47%;
     animation: animate 4s linear infinite;
 }
 
@@ -85,7 +88,7 @@ transform: rotate(0deg);
 }
 
 h3{
-    color: darkblue;
+    color: white;
 }
 
 .fecImg{
@@ -97,7 +100,7 @@ h3{
 }
 
 .lowWord{
-    color: darkblue;
+    color: white;
 }
 /*.button1{
     display: flex;
@@ -148,15 +151,19 @@ input[type="password"]::placeholder{
 
 /*--------------------------footer----------------------------*/
 footer{
-    height: 10vh;
-    width: 40vw;
-
-    margin: 20px;
+    height: auto;
+    width: 100%;
+    color: white;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    position: relative;
+
+
 }
 
 footer a{
-    color: blue;
+    color: white;
 }
