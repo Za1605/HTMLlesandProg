@@ -165,18 +165,19 @@ body{
 }
 
 section{
-    height: 3vh;
-    width: 7vw;
+    height: 4vh;
+    width: 10vw;
     position: absolute;
     border-radius: 8px;
     border: 1px black solid;
     top: -10px;
-    right: -50px;
+    right: -45px;
     transform: rotate(20deg);
     background: linear-gradient( 120deg, #eae652,white,lightgoldenrodyellow);
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: small;
 
 }
 
@@ -190,8 +191,8 @@ button{
     height: 35px;
     width:115px;
     border-radius: 10px;
-    border:none;
-    background: linear-gradient(120deg, #bfb5b5, #d2d8d2, #2339d1);
+    border:1px black solid;
+    background: linear-gradient(120deg, yellow, #d2d8d2, yellow);
     background-size: 200%;
     cursor: pointer;
     transition: transform 0.3s ease;
