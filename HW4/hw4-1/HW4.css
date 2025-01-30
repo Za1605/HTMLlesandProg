@@ -19,13 +19,12 @@ body{
 .firstDiv{
     height: 50vh;
     width: 40vw;
-    margin-bottom: 10px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
-    overflow: hidden;
 }
 
 
